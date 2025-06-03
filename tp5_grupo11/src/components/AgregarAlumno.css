@@ -1,0 +1,48 @@
+.agregar-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agregar-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.agregar-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.agregar-form label {
+    margin-bottom: 12px;
+    color: #34495e;
+    font-weight: bold;
+}
+
+.agregar-form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #bdc3c7;
+    margin-top: 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #27ae60;
+}
