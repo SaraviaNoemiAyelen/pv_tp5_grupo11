@@ -1,0 +1,75 @@
+.lista-alumnos-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.alumnos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.alumnos-table th,
+.alumnos-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.alumnos-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.alumnos-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.alumnos-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-view,
+.btn-edit,
+.btn-delete {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-view {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-view:hover {
+  background-color: #138496;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
