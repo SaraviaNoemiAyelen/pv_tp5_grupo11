@@ -1,42 +1,131 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f8ff; /* Celeste muy claro */
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #0077b6;
+}
+
+a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+.container,
+.home-container,
+.agregar-container,
+.editar-container,
+.detalle-container,
+.lista-alumnos-container,
+.acerca-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #ffffff;
   padding: 2rem;
-  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.agregar-form label,
+.editar-form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.agregar-form input,
+.editar-form input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9fbfd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.submit-button,
+.cancel-button,
+.btn-view,
+.btn-edit,
+.btn-delete {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
 }
 
-.card {
-  padding: 2em;
+.submit-button {
+  background-color: #00b4d8;
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+.submit-button:hover {
+  background-color: #0096c7;
 }
+
+.cancel-button {
+  background-color: #adb5bd;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #6c757d;
+}
+
+.btn-view {
+  background-color: #caf0f8;
+  color: #03045e;
+}
+
+.btn-edit {
+  background-color: #90e0ef;
+  color: #03045e;
+}
+
+.btn-delete {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-view:hover,
+.btn-edit:hover {
+  background-color: #00b4d8;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d62828;
+}
+
+.alumnos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.alumnos-table th,
+.alumnos-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.alumnos-table th {
+  background-color: #0077b6;
+  color: white;
+}
+
+.integrantes-lista {
+  padding-left: 1.2rem;
+}
+
+.acerca-text {
+  margin: 1rem 0;
+}
+
