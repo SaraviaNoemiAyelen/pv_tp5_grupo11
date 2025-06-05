@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./AgregarAlumno.css";
+
 function AgregarAlumno({ agregarAlumno }) {
   const [alumnoForm, setAlumnoForm] = useState({
     Lu: "",
